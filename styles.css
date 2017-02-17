@@ -1,0 +1,80 @@
+html, body {
+  font-family: 'Caudex', serif;
+}
+
+.top-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("assets/computer.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.heading {
+  color: ivory;
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 5em;
+}
+
+.heading h2 {
+  font-size: 3em;
+}
+
+.outline {
+    background-color: transparent;
+    color: #428bca;
+    transition: all .25s;
+}
+
+.heading h3 {
+  font-size: 4em;
+  color: black;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+.bio {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.background {
+  text-align: center;
+}
+
+.entity {
+  box-shadow: 5px 5px 10px #888888;
+  min-height: 401px;
+}
+
+.entity p {
+  font-size: 1em;
+}
+
+summary {
+  padding: 5px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 25px;
+}
